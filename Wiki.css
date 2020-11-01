@@ -1,0 +1,75 @@
+body,table{
+    font-family:  Tahoma;
+    font-size: 12pt; 
+    letter-spacing: .7pt; 
+    margin-right:0;
+    margin-left:0;
+    margin-top:0;
+
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.wikibody
+{
+ margin-left:50pt;
+ margin-right:60pt;
+
+}
+
+
+/*   Definitions for the banner portion   replaces H1background */
+
+.cssBannerTable 
+{   
+    font-family:  Tahoma;
+    font-size: 12pt bold;
+    
+    color:  white;
+    BORDER-RIGHT: 0;
+    BORDER-TOP: 0;
+    BORDER-LEFT: 0;
+    BORDER-BOTTOM: 10px solid skyblue;
+    width: 100%;
+    
+    background: #1919B3;
+    /* background: url(plantgreen.jpg);             */
+    /* background: #1919B3;for non-css3 browsers */
+
+    /* cross-browser gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5950DE', endColorstr='#180854'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#5950DE), to(#180854)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  ##5950DE,  #180854); /* for firefox 3.6+ */  
+
+}
+.cssBannerCellIcon 
+{
+   width: 12px;    
+   padding:20px;
+}
+
+.cssBannerCellText 
+{
+  text-align: left;
+  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=3,OffY=3,Color='#00487D',Positive='true');
+}
+
+.cssBannerSpanText a
+{
+   FONT-SIZE: 34pt; 
+   color:  #FFFF80;
+   text-decoration: none;
+}
+
+.TableClass { background-color: #f8f8f8; border: #505050 1px solid; border-collapse: collapse;font-size: 8pt; }
+
+.TableCell { border-collapse: collapse;border: #909090 1px solid;padding-left: 6px;padding-right: 6px;   padding-bottom: 3px; font-size: 8pt; }
+
+.TableRow1 { background-color: #ccffff ; border: #505050 1px solid; border-collapse: collapse;   font-size: 8pt; }
+
+.TableRow2 { background-color: #FFEACC ; border: #505050 1px solid; border-collapse: collapse;   font-size: 8pt; }
+
+.TableRow3 { background-color: #EDF8ED ; border: #505050 1px solid; border-collapse: collapse;   font-size: 8pt; }
